@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Eli/II kurs/III sem/OOP_JAVA/Homework05/Zad6</OriginalElement>
+  <nodes>
+    <node x="-25.416781292984865" y="321.5171939477304">A</node>
+    <node x="178.25" y="236.0">B</node>
+    <node x="141.0" y="0.0">Second</node>
+    <node x="420.4688796680498" y="286.53941908713693">Test</node>
+    <node x="282.0" y="0.0">Third</node>
+    <node x="18.0" y="0.0">First</node>
+    <node x="158.0" y="128.0">Fourth</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="B" target="Fourth" relationship="REALIZATION">
+      <point x="0.0" y="-105.5" />
+      <point x="242.25" y="210.0" />
+      <point x="205.0" y="210.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="A" target="B" relationship="GENERALIZATION">
+      <point x="35.5" y="-72.5" />
+      <point x="81.08321870701513" y="473.0" />
+      <point x="242.25" y="473.0" />
+      <point x="0.0" y="105.5" />
+    </edge>
+    <edge source="A" target="Fourth" relationship="REALIZATION">
+      <point x="-35.5" y="-72.5" />
+      <point x="10.083218707015135" y="473.0" />
+      <point x="167.75" y="473.0" />
+      <point x="167.75" y="210.0" />
+      <point x="205.0" y="210.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Fourth" target="First" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="205.0" y="103.0" />
+      <point x="73.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Fourth" target="Second" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Fourth" target="Third" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="205.0" y="103.0" />
+      <point x="339.0" y="103.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8759036144578314" showDependencies="false" x="228.49662053127645" y="241.14442916093532" />
+  <SelectedNodes>
+    <node>A</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
