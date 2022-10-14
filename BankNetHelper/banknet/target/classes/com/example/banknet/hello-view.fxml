@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.banknet.Controller">
+   <children>
+      <TextArea fx:id="ta" layoutX="493.0" layoutY="55.0" prefHeight="316.0" prefWidth="393.0" />
+      <Label layoutX="70.0" layoutY="111.0" text="От" />
+      <Label layoutX="205.0" layoutY="111.0" text="На" />
+      <Label layoutX="54.0" layoutY="206.0" text="Заем" />
+      <TextField fx:id="tfFrom" layoutX="106.0" layoutY="106.0" prefHeight="25.0" prefWidth="32.0" />
+      <TextField fx:id="tfTo" layoutX="235.0" layoutY="106.0" prefHeight="25.0" prefWidth="24.0" />
+      <TextField fx:id="tfLoan" layoutX="95.0" layoutY="201.0" />
+      <Button layoutX="78.0" layoutY="359.0" mnemonicParsing="false" onAction="#btnAdd" prefHeight="25.0" prefWidth="126.0" text="Добави Кредит" />
+      <Button layoutX="75.0" layoutY="407.0" mnemonicParsing="false" onAction="#btnRemove" text="Премахни Кредит" />
+      <Button layoutX="276.0" layoutY="359.0" mnemonicParsing="false" onAction="#btnShowAll" text="Покажи Всички Кредити" />
+      <Button layoutX="266.0" layoutY="407.0" mnemonicParsing="false" onAction="#btnShowUnsafe" text="Покажи Ненадеждни Банки" />
+      <Button layoutX="185.0" layoutY="507.0" mnemonicParsing="false" onAction="#btnExit" text="Затвори Приложение" />
+   </children>
+</AnchorPane>
